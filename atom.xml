@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Vincent的个人技术Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http:/"/>
   <updated>2019-07-02T09:15:30.144Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http:/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>vincent</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/07/02/hello-world/"/>
-    <id>http://yoursite.com/2019/07/02/hello-world/</id>
+    <link href="http:/2019/07/02/hello-world/"/>
+    <id>http:/2019/07/02/hello-world/</id>
     <published>2019-07-02T02:58:20.881Z</published>
     <updated>2019-07-02T09:15:30.144Z</updated>
     
