@@ -18,11 +18,11 @@
     <link rel="dns-prefetch" href="http:">
     <!--SEO-->
 
-    <meta name="keywords" content>
+    <meta name="keywords" content="python,解释器,变量,数据类型,运算符">
 
 
-    <meta name="description" content="2.1python认知
-12345678910111213141516171819202122232425262728293031# ### (1)python 简介    89年开发的语言,创...">
+    <meta name="description" content="python 简介 注释 变量 数据类型 运算符 缓存机制2.1python认知
+12345678910111213141516171819202122232425262728293031# #...">
 
 
 
@@ -34,7 +34,7 @@
     <!--Title-->
 
 
-<title>vincent&#39;s blogs</title>
+<title>老男孩python开发 | vincent&#39;s blogs</title>
 
 
     <link rel="alternate" href="/atom.xml" title="vincent&#39;s blogs" type="application/atom+xml">
@@ -139,16 +139,16 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="">
+        <h1 id="老男孩python开发">
             
-	            NO Title!
+	            老男孩python开发
             
         </h1>
         <div class="post-meta">
     
         <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-            
+            <a class="category-link" href="/categories/后端/">后端</a> <a class="category-link" href="/categories/后端/python/">python</a>
         </span>
     
 
@@ -156,6 +156,8 @@
         <span class="fa-wrap">
             <i class="fa fa-tags"></i>
             <span class="tags-meta">
+                
+                    <a class="tag-link" href="/tags/python/">python</a> <a class="tag-link" href="/tags/变量/">变量</a> <a class="tag-link" href="/tags/数据类型/">数据类型</a> <a class="tag-link" href="/tags/解释器/">解释器</a> <a class="tag-link" href="/tags/运算符/">运算符</a>
                 
             </span>
         </span>
@@ -175,7 +177,7 @@
     </div>
     
     <div class="post-body post-content">
-        <h3 id="2-1python认知"><a href="#2-1python认知" class="headerlink" title="2.1python认知"></a>2.1python认知</h3><p><img src="D:\周末四期\L002\assets\1557736597833.png" alt="1557736597833"></p>
+        <h1 id="python-简介-注释-变量-数据类型-运算符-缓存机制"><a href="#python-简介-注释-变量-数据类型-运算符-缓存机制" class="headerlink" title="python 简介 注释 变量 数据类型 运算符 缓存机制"></a>python 简介 注释 变量 数据类型 运算符 缓存机制</h1><h3 id="2-1python认知"><a href="#2-1python认知" class="headerlink" title="2.1python认知"></a>2.1python认知</h3><p><img src="D:\周末四期\L002\assets\1557736597833.png" alt="1557736597833"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ### (1)python 简介</span></span><br><span class="line">    <span class="number">89</span>年开发的语言,创始人范罗苏姆(Guido van Rossum),别称:龟叔(Guido). </span><br><span class="line">    python具有非常多并且强大的第三方库,使得程序开发起来得心应手. </span><br><span class="line">    Python程序员的信仰:人生苦短,我用python!</span><br><span class="line">    开发方向： 机器学习人工智能 ，自动化运维&amp;测试 ，数据分析&amp;爬虫 ，python全栈开发</span><br><span class="line"> </span><br><span class="line"><span class="comment"># ### (2)python 版本</span></span><br><span class="line">    python <span class="number">2.</span>x 版本，官方在 <span class="number">2020</span> 年停止支持,原码不规范,重复较多</span><br><span class="line">    python <span class="number">3.</span>x 版本，功能更加强大且修复了很多bug,原码清晰,简单</span><br><span class="line"></span><br><span class="line"><span class="comment"># ### (3)编译型与解释型语言区别:</span></span><br><span class="line">	编译型:一次性,把所有代码编译成机器能识别的二进制码,在运行</span><br><span class="line">		代表语言:c,c++</span><br><span class="line">		优点: 执行速度块</span><br><span class="line">		缺点: 开发速度慢,调试周期长</span><br><span class="line">		</span><br><span class="line">	解释型:代码从上到下一行一行解释并运行 </span><br><span class="line">		代表语言:python,php</span><br><span class="line">		优点: 开发效率快,调试周期短</span><br><span class="line">		缺点: 执行速度相对慢</span><br><span class="line">	*linux 操作系统默认支持python语言，可直接使用</span><br><span class="line"></span><br><span class="line"><span class="comment"># ### (4)python的解释器:</span></span><br><span class="line">    (<span class="number">1</span>)Cpython(官方推荐)</span><br><span class="line">    	把python转化成c语言能识别的二进制码</span><br><span class="line">    (<span class="number">2</span>)Jpython</span><br><span class="line">    	把python转化成java语言能识别的二进制码</span><br><span class="line">    (<span class="number">3</span>)其他语言解释器</span><br><span class="line">    	把python转化成其他语言能识别的二进制码</span><br><span class="line">    (<span class="number">4</span>)PyPy</span><br><span class="line">    	将所有代码一次性编译成二进制码,加快执行效率(模仿编译型语言的一款python解释器)</span><br></pre></td></tr></table></figure>
 <h3 id="2-2注释-就是对代码的解释-方便大家阅读python代码"><a href="#2-2注释-就是对代码的解释-方便大家阅读python代码" class="headerlink" title="2.2注释: 就是对代码的解释 方便大家阅读python代码"></a>2.2注释: 就是对代码的解释 方便大家阅读python代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">(<span class="number">1</span>)注释的分类</span><br><span class="line">(<span class="number">2</span>)注释的注意点</span><br><span class="line">(<span class="number">3</span>)注释的排错性</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">(<span class="number">1</span>)注释的分类 ： <span class="number">1.</span>单行注释 <span class="number">2.</span>多行注释</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 1.单行注释   以#号开头 ，右边的所有东西都被当做说明文字 ，程序不进行编译运行。</span></span><br><span class="line">    print(‘hello world’)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 2.多行注释   三个单引号 或 三个双引号</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    这是第一行</span></span><br><span class="line"><span class="string">    这是第二行</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">    </span><br><span class="line">(<span class="number">2</span>)注释的注意点</span><br><span class="line">	如果外面使用三个单引号，里面使用三个双引号，反之亦然。</span><br><span class="line">(<span class="number">3</span>)注释的排错性</span><br><span class="line">	先注释一部分代码，然后执行另外一部分，看看是否报错，逐层缩小报错范围，找到最终错误点。</span><br></pre></td></tr></table></figure>
@@ -252,15 +254,15 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/07/02/老男孩python开发-2/" class="pre-post btn btn-default" title='老男孩python开发'>
+        <a href="/2019/07/03/老男孩python开发-1/" class="pre-post btn btn-default" title=''>
             <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">老男孩python开发</span>
+            <span class="hidden-xs"></span>
         </a>
     
     
-        <a href="/2019/07/02/hello-world/" class="next-post btn btn-default" title='jQuery表单验证'>
+        <a href="/2019/07/02/老男孩python/" class="next-post btn btn-default" title=''>
             <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">jQuery表单验证</span><i class="fa fa-angle-right fa-fw"></i>
+            <span class="hidden-xs"></span><i class="fa fa-angle-right fa-fw"></i>
         </a>
     
 </div>
@@ -303,7 +305,7 @@
     <div class="widget">
         <h3 class="title">Table of Contents</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1python认知"><span class="toc-text">2.1python认知</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2注释-就是对代码的解释-方便大家阅读python代码"><span class="toc-text">2.2注释: 就是对代码的解释 方便大家阅读python代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3变量-可以改变的量-实际具体指的是内存中的一块存储空间"><span class="toc-text">2.3变量: 可以改变的量,实际具体指的是内存中的一块存储空间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4python六大标准数据类型"><span class="toc-text">2.4python六大标准数据类型:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-1自动类型转换"><span class="toc-text">2.4.1自动类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-2强制类型转换"><span class="toc-text">2.4.2强制类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-3字典和集合的注意点"><span class="toc-text">2.4.3字典和集合的注意点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5python运算符"><span class="toc-text">2.5python运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6数据在内存中的缓存机制"><span class="toc-text">2.6数据在内存中的缓存机制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-1在同一文件-模块-里-变量存储的缓存机制-仅对python3-6版本负责"><span class="toc-text">2.6.1在同一文件(模块)里,变量存储的缓存机制  (仅对python3.6版本负责)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-2不同文件-模块-里-部分数据驻留小数据池中-仅对python3-6版本负责-了解"><span class="toc-text">2.6.2不同文件(模块)里,部分数据驻留小数据池中 (仅对python3.6版本负责 了解)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-3-缓存机制的意义"><span class="toc-text">2.6.3 缓存机制的意义</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python-简介-注释-变量-数据类型-运算符-缓存机制"><span class="toc-text">python 简介 注释 变量 数据类型 运算符 缓存机制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1python认知"><span class="toc-text">2.1python认知</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2注释-就是对代码的解释-方便大家阅读python代码"><span class="toc-text">2.2注释: 就是对代码的解释 方便大家阅读python代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3变量-可以改变的量-实际具体指的是内存中的一块存储空间"><span class="toc-text">2.3变量: 可以改变的量,实际具体指的是内存中的一块存储空间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4python六大标准数据类型"><span class="toc-text">2.4python六大标准数据类型:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-1自动类型转换"><span class="toc-text">2.4.1自动类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-2强制类型转换"><span class="toc-text">2.4.2强制类型转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-3字典和集合的注意点"><span class="toc-text">2.4.3字典和集合的注意点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5python运算符"><span class="toc-text">2.5python运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6数据在内存中的缓存机制"><span class="toc-text">2.6数据在内存中的缓存机制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-1在同一文件-模块-里-变量存储的缓存机制-仅对python3-6版本负责"><span class="toc-text">2.6.1在同一文件(模块)里,变量存储的缓存机制  (仅对python3.6版本负责)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-2不同文件-模块-里-部分数据驻留小数据池中-仅对python3-6版本负责-了解"><span class="toc-text">2.6.2不同文件(模块)里,部分数据驻留小数据池中 (仅对python3.6版本负责 了解)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-3-缓存机制的意义"><span class="toc-text">2.6.3 缓存机制的意义</span></a></li></ol></li></ol></li></ol></li></ol>
         
     </div>
 </aside>
