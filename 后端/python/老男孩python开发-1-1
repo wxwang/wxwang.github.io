@@ -15,13 +15,13 @@
     <meta name="screen-orientation" content="portrait">
     <meta name="theme-version" content="1.0.0">
     <meta name="root" content="/">
-    <link rel="dns-prefetch" href="http:">
+    <link rel="dns-prefetch" href="http://wxwang.orbbec.me">
     <!--SEO-->
 
-    <meta name="keywords" content>
+    <meta name="keywords" content="python,进制转换">
 
 
-    <meta name="description" content="1.1 计算机硬件基本认知1234cpu:   中央处理器.   相当于人的大脑.运算中心,控制中心.内存:  临时存储数据.  优点:读取速度快。 缺点:容量小,造价高,断电即消失.硬盘:  ...">
+    <meta name="description" content="计算机组成和进制转换1.1 计算机硬件基本认知1234cpu:   中央处理器.   相当于人的大脑.运算中心,控制中心.内存:  临时存储数据.  优点:读取速度快。 缺点:容量小,造价高,断...">
 
 
 
@@ -33,7 +33,7 @@
     <!--Title-->
 
 
-<title>vincent&#39;s blogs</title>
+<title>老男孩python开发-1 | vincent&#39;s blogs</title>
 
 
     <link rel="alternate" href="/atom.xml" title="vincent&#39;s blogs" type="application/atom+xml">
@@ -81,7 +81,7 @@
 <body>
     <header class="main-header"  style="background-image:url(http://snippet.shenliyang.com/img/banner.jpg)"  >
     <div class="main-header-box">
-        <a class="header-avatar" href="/" title='vincent'>
+        <a class="header-avatar" href="/" title='vincent wang'>
             <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
         </a>
         <div class="branding">
@@ -100,13 +100,13 @@
                     <span class="sr-only"></span>
                         <i class="fa fa-bars"></i>
                     </span>
-                    <a class="navbar-brand" href="http:">vincent&#39;s blogs</a>
+                    <a class="navbar-brand" href="http://wxwang.orbbec.me">vincent&#39;s blogs</a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="menu">
                         
                             <li role="presentation" class="text-center">
-                                <a href="/"><i class="fa "></i>Home</a>
+                                <a href="/"><i class="fa home-lg"></i>Home</a>
                             </li>
                         
                             <li role="presentation" class="text-center">
@@ -138,16 +138,16 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="">
+        <h1 id="老男孩python开发-1">
             
-	            NO Title!
+	            老男孩python开发-1
             
         </h1>
         <div class="post-meta">
     
         <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-            
+            <a class="category-link" href="/categories/后端/">后端</a> <a class="category-link" href="/categories/后端/python/">python</a>
         </span>
     
 
@@ -155,6 +155,8 @@
         <span class="fa-wrap">
             <i class="fa fa-tags"></i>
             <span class="tags-meta">
+                
+                    <a class="tag-link" href="/tags/python/">python</a> <a class="tag-link" href="/tags/进制转换/">进制转换</a>
                 
             </span>
         </span>
@@ -174,7 +176,7 @@
     </div>
     
     <div class="post-body post-content">
-        <h3 id="1-1-计算机硬件基本认知"><a href="#1-1-计算机硬件基本认知" class="headerlink" title="1.1 计算机硬件基本认知"></a>1.1 计算机硬件基本认知</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cpu:   中央处理器.   相当于人的大脑.运算中心,控制中心.</span><br><span class="line">内存:  临时存储数据.  优点:读取速度快。 缺点:容量小,造价高,断电即消失.</span><br><span class="line">硬盘:  长期存储数据.  优点:容量大,造价相对低,断电不消失。 缺点:读取速度慢.</span><br><span class="line">操作系统:统一管理计算机软硬件资源的程序</span><br></pre></td></tr></table></figure>
+        <h1 id="计算机组成和进制转换"><a href="#计算机组成和进制转换" class="headerlink" title="计算机组成和进制转换"></a>计算机组成和进制转换</h1><h3 id="1-1-计算机硬件基本认知"><a href="#1-1-计算机硬件基本认知" class="headerlink" title="1.1 计算机硬件基本认知"></a>1.1 计算机硬件基本认知</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cpu:   中央处理器.   相当于人的大脑.运算中心,控制中心.</span><br><span class="line">内存:  临时存储数据.  优点:读取速度快。 缺点:容量小,造价高,断电即消失.</span><br><span class="line">硬盘:  长期存储数据.  优点:容量大,造价相对低,断电不消失。 缺点:读取速度慢.</span><br><span class="line">操作系统:统一管理计算机软硬件资源的程序</span><br></pre></td></tr></table></figure>
 <p><img src="D:\周末四期\assets" alt="1557729534117">python</p>
 <h3 id="1-2计算机文件大小单位"><a href="#1-2计算机文件大小单位" class="headerlink" title="1.2计算机文件大小单位"></a>1.2计算机文件大小单位</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">b = bit  位(比特)</span><br><span class="line">B = Byte 字节</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>Byte = <span class="number">8</span> bit   <span class="comment">#一个字节等于8位  可以简写成 1B = 8b</span></span><br><span class="line"><span class="number">1</span>KB = <span class="number">1024</span>B</span><br><span class="line"><span class="number">1</span>MB = <span class="number">1024</span>KB</span><br><span class="line"><span class="number">1</span>GB = <span class="number">1024</span>MB</span><br><span class="line"><span class="number">1</span>TB = <span class="number">1024</span>GB</span><br><span class="line"><span class="number">1</span>PB = <span class="number">1024</span>TB</span><br><span class="line"><span class="number">1</span>EB = <span class="number">1024</span>PB</span><br></pre></td></tr></table></figure>
 <h3 id="1-3进制转换"><a href="#1-3进制转换" class="headerlink" title="1.3进制转换"></a>1.3进制转换</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">二进制:由<span class="number">2</span>个数字组成,有<span class="number">0</span> 和 <span class="number">1</span>  			   例:  <span class="number">0b101</span> </span><br><span class="line">八进制:由<span class="number">8</span>个数字组成,有<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>        例:  <span class="number">0o127</span> </span><br><span class="line">十进制:有<span class="number">10</span>个数字组成,有<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>   例:  <span class="number">250</span></span><br><span class="line">十六进制:有<span class="number">16</span>个数字组成,有<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>,a,b,c,d,e,f(字母大小写都可以,分别代表<span class="number">10</span>,<span class="number">11</span>,<span class="number">12</span>,<span class="number">13</span>,<span class="number">14</span>,<span class="number">15</span>) 例:<span class="number">0xff</span>  <span class="number">0Xff</span>  <span class="number">0XFF</span></span><br></pre></td></tr></table></figure>
@@ -211,15 +213,10 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/07/03/老男孩python开发-1-1/" class="pre-post btn btn-default" title='老男孩python开发-1'>
-            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">老男孩python开发-1</span>
-        </a>
     
-    
-        <a href="/2019/07/02/老男孩python开发-2/" class="next-post btn btn-default" title='老男孩python开发'>
+        <a href="/后端/python/老男孩python开发-2" class="next-post btn btn-default" title='老男孩python开发-2'>
             <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">老男孩python开发</span><i class="fa fa-angle-right fa-fw"></i>
+            <span class="hidden-xs">老男孩python开发-2</span><i class="fa fa-angle-right fa-fw"></i>
         </a>
     
 </div>
@@ -262,7 +259,7 @@
     <div class="widget">
         <h3 class="title">Table of Contents</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-计算机硬件基本认知"><span class="toc-text">1.1 计算机硬件基本认知</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2计算机文件大小单位"><span class="toc-text">1.2计算机文件大小单位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3进制转换"><span class="toc-text">1.3进制转换</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-二进制-转化成-十进制"><span class="toc-text">1.3.1 二进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-八进制-转化成-十进制"><span class="toc-text">1.3.2 八进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-3-十六进制-转化成-十进制"><span class="toc-text">1.3.3 十六进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制"><span class="toc-text">*小练习: 转化成对应进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-4-十进制-转化成-二进制"><span class="toc-text">1.3.4 十进制 转化成 二进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-5-十进制-转化成-八进制"><span class="toc-text">1.3.5 十进制 转化成 八进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-6-十进制-转化成-十六进制"><span class="toc-text">1.3.6 十进制 转化成 十六进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制-1"><span class="toc-text">*小练习: 转化成对应进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-7-二进制与八进制转换"><span class="toc-text">1.3.7  二进制与八进制转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-8-二进制与十六进制转换"><span class="toc-text">1.3.8  二进制与十六进制转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-9-八进制-与-十六进制的转换"><span class="toc-text">1.3.9 八进制 与 十六进制的转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制-2"><span class="toc-text">*小练习: 转化成对应进制</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4原码-反码-补码"><span class="toc-text">1.4原码,反码,补码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习：原码-与-反码的转换"><span class="toc-text">*小练习：原码 与 反码的转换</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#计算机组成和进制转换"><span class="toc-text">计算机组成和进制转换</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-计算机硬件基本认知"><span class="toc-text">1.1 计算机硬件基本认知</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2计算机文件大小单位"><span class="toc-text">1.2计算机文件大小单位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3进制转换"><span class="toc-text">1.3进制转换</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1-二进制-转化成-十进制"><span class="toc-text">1.3.1 二进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2-八进制-转化成-十进制"><span class="toc-text">1.3.2 八进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-3-十六进制-转化成-十进制"><span class="toc-text">1.3.3 十六进制 转化成 十进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制"><span class="toc-text">*小练习: 转化成对应进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-4-十进制-转化成-二进制"><span class="toc-text">1.3.4 十进制 转化成 二进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-5-十进制-转化成-八进制"><span class="toc-text">1.3.5 十进制 转化成 八进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-6-十进制-转化成-十六进制"><span class="toc-text">1.3.6 十进制 转化成 十六进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制-1"><span class="toc-text">*小练习: 转化成对应进制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-7-二进制与八进制转换"><span class="toc-text">1.3.7  二进制与八进制转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-8-二进制与十六进制转换"><span class="toc-text">1.3.8  二进制与十六进制转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-9-八进制-与-十六进制的转换"><span class="toc-text">1.3.9 八进制 与 十六进制的转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习-转化成对应进制-2"><span class="toc-text">*小练习: 转化成对应进制</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4原码-反码-补码"><span class="toc-text">1.4原码,反码,补码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#小练习：原码-与-反码的转换"><span class="toc-text">*小练习：原码 与 反码的转换</span></a></li></ol></li></ol></li></ol></li></ol>
         
     </div>
 </aside>

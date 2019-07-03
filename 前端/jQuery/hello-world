@@ -15,7 +15,7 @@
     <meta name="screen-orientation" content="portrait">
     <meta name="theme-version" content="1.0.0">
     <meta name="root" content="/">
-    <link rel="dns-prefetch" href="http:">
+    <link rel="dns-prefetch" href="http://wxwang.orbbec.me">
     <!--SEO-->
 
     <meta name="keywords" content="jQuery,表格,表单验证">
@@ -81,7 +81,7 @@
 <body>
     <header class="main-header"  style="background-image:url(http://snippet.shenliyang.com/img/banner.jpg)"  >
     <div class="main-header-box">
-        <a class="header-avatar" href="/" title='vincent'>
+        <a class="header-avatar" href="/" title='vincent wang'>
             <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
         </a>
         <div class="branding">
@@ -100,13 +100,13 @@
                     <span class="sr-only"></span>
                         <i class="fa fa-bars"></i>
                     </span>
-                    <a class="navbar-brand" href="http:">vincent&#39;s blogs</a>
+                    <a class="navbar-brand" href="http://wxwang.orbbec.me">vincent&#39;s blogs</a>
                 </div>
                 <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="menu">
                         
                             <li role="presentation" class="text-center">
-                                <a href="/"><i class="fa "></i>Home</a>
+                                <a href="/"><i class="fa home-lg"></i>Home</a>
                             </li>
                         
                             <li role="presentation" class="text-center">
@@ -202,9 +202,9 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/07/02/老男孩python/" class="pre-post btn btn-default" title=''>
+        <a href="/后端/python/老男孩python开发-2" class="pre-post btn btn-default" title='老男孩python开发-2'>
             <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs"></span>
+            <span class="hidden-xs">老男孩python开发-2</span>
         </a>
     
     
